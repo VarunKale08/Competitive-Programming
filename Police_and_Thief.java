@@ -9,7 +9,7 @@ public class Police_and_Thief {
         Scanner sc = new Scanner(System.in);
 
         int t = sc.nextInt();
-        int count = 0;
+        // int count = 0;
         for (int i = 0; i < t; i++) 
         {
            
@@ -33,3 +33,25 @@ public class Police_and_Thief {
         sc.close();
     }
 }
+
+// Scanner sc = new Scanner(System.in);
+
+// int t = sc.nextInt();
+// int count = 0;
+// for (int i = 0; i < t; i++) {
+//     int x = sc.nextInt();
+//     int y = sc.nextInt();
+
+//     if (x > y) {
+//         System.out.println(x - y);
+//     } else if (x < y) {
+//         x = x + 2;
+//         count += 2;
+
+//         if (x == y) {
+//             System.out.println(count);
+//         }
+//     } else if (x == y) {
+//         System.out.println(0);
+//     }
+// }
