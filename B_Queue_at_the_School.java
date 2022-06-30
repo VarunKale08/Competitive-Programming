@@ -8,6 +8,7 @@ public class B_Queue_at_the_School {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int t = sc.nextInt();
+        sc.nextLine();
         String s= sc.nextLine();
 
     System.out.println(s);
